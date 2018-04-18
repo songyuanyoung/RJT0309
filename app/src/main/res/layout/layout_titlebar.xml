@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_titlebar"
+    android:layout_width="match_parent"
+    android:layout_height="52dp"
+    android:background="@color/titleBar">
+
+
+    <TextView
+        android:id="@+id/text_title"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:ellipsize="marquee"
+        android:gravity="center_horizontal|center"
+        android:singleLine="true"
+        android:text="Zach's Market"
+        android:textColor="@color/colorAccent"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/button_forward"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:singleLine="true"
+        android:background="@drawable/account"
+        android:layout_marginStart="15dp"
+
+        android:layout_centerVertical="true"
+
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/button_backward"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:singleLine="true"
+
+        android:background="@drawable/cart"
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="15dp" />
+
+</RelativeLayout>
